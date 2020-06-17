@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-//import "./App.css";
+import "sanitize.css";
 import "./App.scss"; // assuming a styles directory under src/
 import styled from "styled-components";
 
