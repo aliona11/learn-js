@@ -1,6 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
+//import "./App.css";
+import "./App.scss"; // assuming a styles directory under src/
+import styled from "styled-components";
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
 
 function App() {
   return (
@@ -16,7 +24,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Title>Learn React</Title>
         </a>
       </header>
     </div>
